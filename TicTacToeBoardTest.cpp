@@ -20,3 +20,17 @@ TEST(TicTacToeBoardTest, unitTestName)
 	ASSERT_TRUE(true);
 }
 */
+
+TEST(TicTacToeBoardTest, placePiece)
+{   
+	myBorad = TicTacToeBoard()
+	myBorad.placePiece(-1,-1) // must fail
+	ASSERT_TRUE(true);
+}
+
+TEST(TicTacToeBoardTest, getPiece())
+{   
+	myBorad = TicTacToeBoard()
+	myBorad.getPiece(-1,-1) // must fail
+	ASSERT_TRUE(true);
+}
